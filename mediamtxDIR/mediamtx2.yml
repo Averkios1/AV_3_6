@@ -1,0 +1,15 @@
+# mediamtx2.yml
+
+serverName: my-rtsp-server
+
+# General settings
+logLevel: info
+rtspAddress: :8554
+
+# Allow clients to publish to any path dynamically
+paths:
+  all:
+    source: publisher
+    # Optional: disable authentication if needed
+    # publishUser: ""
+    # publishPass: ""
