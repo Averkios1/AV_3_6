@@ -20,3 +20,5 @@ __pycache__/
 *.pyo
 *.tmp
 *.swp
+*.mp4
+*.MP4
