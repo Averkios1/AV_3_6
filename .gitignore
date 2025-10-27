@@ -9,6 +9,7 @@
 *.tar.gz
 *.zip
 *.gz
+yolov5/
 
 # Ignore detection logs and large CSVs
 *.csv
