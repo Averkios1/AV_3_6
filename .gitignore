@@ -1,20 +1,22 @@
-# Ignore large video files
+# Ignore all video and archive files
 *.MP4
-*.AVI
+*.mp4
 *.MOV
-*.MKV
-*.WEBM
+*.mov
+*.AVI
+*.avi
+*.mkv
+*.tar.gz
+*.zip
+*.gz
+
+# Ignore detection logs and large CSVs
+*.csv
+*.log
 
 # Ignore temporary files
-*.pyc
 __pycache__/
-*.log
+*.pyc
+*.pyo
 *.tmp
-
-# Ignore model weights if desired
-*.pt
-*.pth
-
-# Ignore large dataset folders
-data/
-videos/
+*.swp
